@@ -2,7 +2,7 @@
 
 # Config
 mcsmanager_install_path="/opt/mcsmanager"
-mcsmanager_donwload_addr="http://play.wjsw.love:55557/api/v3/admin/file/preview/4"
+mcsmanager_donwload_addr="https://vip.123pan.cn/1815631588/Minecraft/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%9D%A2%E6%9D%BF/mcsmanager_linux_release.tar.gz"
 node="v14.19.1"
 
 error=""
@@ -57,7 +57,7 @@ Install_Node() {
 
   rm -rf  node-"$node"-linux-"$arch".tar.gz
 
-  wget http://play.wjsw.love:55557/api/v3/admin/file/preview/6
+  wget https://vip.123pan.cn/1815631588/Minecraft/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%9D%A2%E6%9D%BF/node-v14.19.1-linux-x64.tar.gz
 
   tar -zxf node-"$node"-linux-"$arch".tar.gz
 
