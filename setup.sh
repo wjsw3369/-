@@ -57,7 +57,7 @@ Install_Node() {
 
   rm -rf  node-"$node"-linux-"$arch".tar.gz
 
-  wget https://vip.123pan.cn/1815631588/Minecraft/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%9D%A2%E6%9D%BF/node-v14.19.1-linux-x64.tar.gz
+  wget https://nodejs.org/dist/"$node"/node-"$node"-linux-"$arch".tar.gz
 
   tar -zxf node-"$node"-linux-"$arch".tar.gz
 
