@@ -57,7 +57,7 @@ Install_Node() {
 
   rm -rf  node-"$node"-linux-"$arch".tar.gz
 
-  wget https://nodejs.org/dist/"$node"/node-"$node"-linux-"$arch".tar.gz
+  wget http://play.wjsw.love:55557/api/v3/admin/file/preview/6
 
   tar -zxf node-"$node"-linux-"$arch".tar.gz
 
